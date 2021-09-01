@@ -73,7 +73,6 @@ namespace works.HomeWork4.Page
     private void WaitForResult()
     {
       Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-      //GetWait().Until(ExpectedConditions.ElementExists(By.CssSelector("body > p")));
     }
   }
 }
