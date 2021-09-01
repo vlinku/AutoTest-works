@@ -155,7 +155,13 @@
     <Compile Include="Class1.cs" />
     <Compile Include="HomeWork1.cs" />
     <Compile Include="HomeWork2.cs" />
+    <Compile Include="HomeWork3\Page\BasePage.cs" />
+    <Compile Include="HomeWork3\Page\HomeWork3Page.cs" />
+    <Compile Include="HomeWork4\Page\HW4Base.cs" />
+    <Compile Include="HomeWork4\Page\HW4Page.cs" />
+    <Compile Include="HomeWork4\Test\HW4Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HomeWork3\Test\HomeWork3Test.cs" />
     <Compile Include="VartuTechnika.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +175,7 @@
     </Content>
     <Content Include="Readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
