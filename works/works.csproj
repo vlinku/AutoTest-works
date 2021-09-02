@@ -153,6 +153,13 @@
     <Compile Include="Browsers.cs" />
     <Compile Include="CheckBoxDemo.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Final\Drivers\Browsers.cs" />
+    <Compile Include="Final\Drivers\CustomDrivers.cs" />
+    <Compile Include="Final\Page\BasePage.cs" />
+    <Compile Include="Final\Page\BasicCheckBoxPage.cs" />
+    <Compile Include="Final\Test\BaseTest.cs" />
+    <Compile Include="Final\Test\BasicCheckBoxTest.cs" />
+    <Compile Include="Final\Tools\MyScreenshot.cs" />
     <Compile Include="HomeWork1.cs" />
     <Compile Include="HomeWork2.cs" />
     <Compile Include="HomeWork3\Page\BasePage.cs" />
